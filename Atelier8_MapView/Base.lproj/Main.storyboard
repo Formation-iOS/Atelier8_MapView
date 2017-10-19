@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" mapType="satellite" translatesAutoresizingMaskIntoConstraints="NO" id="bkP-AS-Xt8">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="nAZ-wG-bBd"/>
                                 </connections>
@@ -43,12 +42,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fZq-z5-X5X"/>
-                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kFb-RP-Ist"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bkP-AS-Xt8" secondAttribute="bottom" id="paJ-vb-I02"/>
-                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u5h-5h-zsk"/>
+                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="fZq-z5-X5X"/>
+                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kFb-RP-Ist"/>
+                            <constraint firstAttribute="bottom" secondItem="bkP-AS-Xt8" secondAttribute="bottom" id="paJ-vb-I02"/>
+                            <constraint firstItem="bkP-AS-Xt8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="u5h-5h-zsk"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="bkP-AS-Xt8" id="Coj-AK-R8a"/>
