@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Mysterious Desert Pattern</string>
+		<key>Latitude</key>
+		<string>27.3805833</string>
+		<key>Longitude</key>
+		<string>33.631838888888886</string>
+		<key>Zoom</key>
+		<real>0.004396</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Guitar-Shaped Forest</string>
+		<key>Latitude</key>
+		<string>-33.867886</string>
+		<key>Longitude</key>
+		<string>-63.987</string>
+		<key>Zoom</key>
+		<real>0.026311453</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Heart-Shaped Lake</string>
+		<key>Latitude</key>
+		<string>41.303921</string>
+		<key>Longitude</key>
+		<string>-81.901693</string>
+		<key>Zoom</key>
+		<real>0.003298</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Giant Target</string>
+		<key>Latitude</key>
+		<string>37.563936</string>
+		<key>Longitude</key>
+		<string>-116.85123</string>
+		<key>Zoom</key>
+		<real>0.007</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Jesus Loves You</string>
+		<key>Latitude</key>
+		<string>43.645074</string>
+		<key>Longitude</key>
+		<string>-115.993081</string>
+		<key>Zoom</key>
+		<real>0.00125</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Lion King</string>
+		<key>Latitude</key>
+		<string>51.848637</string>
+		<key>Longitude</key>
+		<string>-0.55462</string>
+		<key>Zoom</key>
+		<real>0.00454</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Barringer Meteor Crater</string>
+		<key>Latitude</key>
+		<string>35.027185</string>
+		<key>Longitude</key>
+		<string>-111.022388</string>
+		<key>Zoom</key>
+		<real>0.028277</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Batman Symbol</string>
+		<key>Latitude</key>
+		<string>26.357896</string>
+		<key>Longitude</key>
+		<string>127.783809</string>
+		<key>Zoom</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Big Red Lips in the Desert</string>
+		<key>Latitude</key>
+		<string>12.3703667</string>
+		<key>Longitude</key>
+		<string>023.3222722</string>
+		<key>Zoom</key>
+		<real>0.0194444</real>
+	</dict>
+</array>
+</plist>

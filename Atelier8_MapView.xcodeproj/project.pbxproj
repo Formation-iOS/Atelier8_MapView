@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D676F7A1F98A92600540ED4 /* FunAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D676F791F98A92600540ED4 /* FunAnnotation.swift */; };
 		2D83927B1F974B5F00968C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83927A1F974B5F00968C63 /* AppDelegate.swift */; };
 		2D83927D1F974B5F00968C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83927C1F974B5F00968C63 /* ViewController.swift */; };
 		2D8392801F974B5F00968C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D83927E1F974B5F00968C63 /* Main.storyboard */; };
 		2D8392821F974B5F00968C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8392811F974B5F00968C63 /* Assets.xcassets */; };
 		2D8392851F974B5F00968C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8392831F974B5F00968C63 /* LaunchScreen.storyboard */; };
+		2D83928E1F974BB500968C63 /* AmazingPlaces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D83928D1F974BB500968C63 /* AmazingPlaces.plist */; };
+		2D8392901F9752FD00968C63 /* FunMapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83928F1F9752FD00968C63 /* FunMapPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D676F791F98A92600540ED4 /* FunAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunAnnotation.swift; sourceTree = "<group>"; };
 		2D8392771F974B5F00968C63 /* Atelier8_MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atelier8_MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D83927A1F974B5F00968C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D83927C1F974B5F00968C63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		2D8392811F974B5F00968C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D8392841F974B5F00968C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8392861F974B5F00968C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D83928D1F974BB500968C63 /* AmazingPlaces.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AmazingPlaces.plist; sourceTree = "<group>"; };
+		2D83928F1F9752FD00968C63 /* FunMapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunMapPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,10 @@
 		2D8392791F974B5F00968C63 /* Atelier8_MapView */ = {
 			isa = PBXGroup;
 			children = (
+				2D83928C1F974B9700968C63 /* Ressources */,
+				2D8392921F97531500968C63 /* Services */,
+				2D8392911F97530600968C63 /* Model */,
+				2D8392931F97531B00968C63 /* View */,
 				2D83927A1F974B5F00968C63 /* AppDelegate.swift */,
 				2D83927C1F974B5F00968C63 /* ViewController.swift */,
 				2D83927E1F974B5F00968C63 /* Main.storyboard */,
@@ -62,6 +72,37 @@
 				2D8392861F974B5F00968C63 /* Info.plist */,
 			);
 			path = Atelier8_MapView;
+			sourceTree = "<group>";
+		};
+		2D83928C1F974B9700968C63 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				2D83928D1F974BB500968C63 /* AmazingPlaces.plist */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		2D8392911F97530600968C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D83928F1F9752FD00968C63 /* FunMapPoint.swift */,
+				2D676F791F98A92600540ED4 /* FunAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D8392921F97531500968C63 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D8392931F97531B00968C63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D83928E1F974BB500968C63 /* AmazingPlaces.plist in Resources */,
 				2D8392851F974B5F00968C63 /* LaunchScreen.storyboard in Resources */,
 				2D8392821F974B5F00968C63 /* Assets.xcassets in Resources */,
 				2D8392801F974B5F00968C63 /* Main.storyboard in Resources */,
@@ -138,6 +180,8 @@
 			files = (
 				2D83927D1F974B5F00968C63 /* ViewController.swift in Sources */,
 				2D83927B1F974B5F00968C63 /* AppDelegate.swift in Sources */,
+				2D676F7A1F98A92600540ED4 /* FunAnnotation.swift in Sources */,
+				2D8392901F9752FD00968C63 /* FunMapPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FP7R49G877;
 				INFOPLIST_FILE = Atelier8_MapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.boudchouedition.Atelier8-MapView";
@@ -289,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FP7R49G877;
 				INFOPLIST_FILE = Atelier8_MapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.boudchouedition.Atelier8-MapView";
